@@ -1,21 +1,33 @@
 {
   "files": {
-    "main.css": "/cryptoscholar/static/css/main.7319b461.chunk.css",
-    "main.js": "/cryptoscholar/static/js/main.44730291.chunk.js",
-    "main.js.map": "/cryptoscholar/static/js/main.44730291.chunk.js.map",
+    "main.css": "/cryptoscholar/static/css/main.293fb793.chunk.css",
+    "main.js": "/cryptoscholar/static/js/main.336cae36.chunk.js",
+    "main.js.map": "/cryptoscholar/static/js/main.336cae36.chunk.js.map",
     "runtime-main.js": "/cryptoscholar/static/js/runtime-main.88060b96.js",
     "runtime-main.js.map": "/cryptoscholar/static/js/runtime-main.88060b96.js.map",
-    "static/js/2.dd9b5e23.chunk.js": "/cryptoscholar/static/js/2.dd9b5e23.chunk.js",
-    "static/js/2.dd9b5e23.chunk.js.map": "/cryptoscholar/static/js/2.dd9b5e23.chunk.js.map",
+    "static/js/2.b910aeb4.chunk.js": "/cryptoscholar/static/js/2.b910aeb4.chunk.js",
+    "static/js/2.b910aeb4.chunk.js.map": "/cryptoscholar/static/js/2.b910aeb4.chunk.js.map",
     "index.html": "/cryptoscholar/index.html",
-    "static/css/main.7319b461.chunk.css.map": "/cryptoscholar/static/css/main.7319b461.chunk.css.map",
-    "static/js/2.dd9b5e23.chunk.js.LICENSE.txt": "/cryptoscholar/static/js/2.dd9b5e23.chunk.js.LICENSE.txt",
-    "static/media/Logo.800f082f.png": "/cryptoscholar/static/media/Logo.800f082f.png"
+    "static/css/main.293fb793.chunk.css.map": "/cryptoscholar/static/css/main.293fb793.chunk.css.map",
+    "static/js/2.b910aeb4.chunk.js.LICENSE.txt": "/cryptoscholar/static/js/2.b910aeb4.chunk.js.LICENSE.txt",
+    "static/media/Logo.800f082f.png": "/cryptoscholar/static/media/Logo.800f082f.png",
+    "static/media/b_bishop.46e2ceb2.png": "/cryptoscholar/static/media/b_bishop.46e2ceb2.png",
+    "static/media/b_king.0f1c81df.png": "/cryptoscholar/static/media/b_king.0f1c81df.png",
+    "static/media/b_knight.506afede.png": "/cryptoscholar/static/media/b_knight.506afede.png",
+    "static/media/b_pawn.bbf20ce5.png": "/cryptoscholar/static/media/b_pawn.bbf20ce5.png",
+    "static/media/b_queen.05d71e00.png": "/cryptoscholar/static/media/b_queen.05d71e00.png",
+    "static/media/b_rook.62d9b25c.png": "/cryptoscholar/static/media/b_rook.62d9b25c.png",
+    "static/media/w_bishop.3e56f0d1.png": "/cryptoscholar/static/media/w_bishop.3e56f0d1.png",
+    "static/media/w_king.e2f5d12e.png": "/cryptoscholar/static/media/w_king.e2f5d12e.png",
+    "static/media/w_knight.d46581f3.png": "/cryptoscholar/static/media/w_knight.d46581f3.png",
+    "static/media/w_pawn.6e018d7b.png": "/cryptoscholar/static/media/w_pawn.6e018d7b.png",
+    "static/media/w_queen.505a44b6.png": "/cryptoscholar/static/media/w_queen.505a44b6.png",
+    "static/media/w_rook.0c42101d.png": "/cryptoscholar/static/media/w_rook.0c42101d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.88060b96.js",
-    "static/js/2.dd9b5e23.chunk.js",
-    "static/css/main.7319b461.chunk.css",
-    "static/js/main.44730291.chunk.js"
+    "static/js/2.b910aeb4.chunk.js",
+    "static/css/main.293fb793.chunk.css",
+    "static/js/main.336cae36.chunk.js"
   ]
 }
