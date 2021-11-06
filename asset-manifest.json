@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/cryptoscholar/static/css/main.809d1f90.chunk.css",
-    "main.js": "/cryptoscholar/static/js/main.37f5ae67.chunk.js",
-    "main.js.map": "/cryptoscholar/static/js/main.37f5ae67.chunk.js.map",
+    "main.css": "/cryptoscholar/static/css/main.ac9f4805.chunk.css",
+    "main.js": "/cryptoscholar/static/js/main.9937fc1a.chunk.js",
+    "main.js.map": "/cryptoscholar/static/js/main.9937fc1a.chunk.js.map",
     "runtime-main.js": "/cryptoscholar/static/js/runtime-main.88060b96.js",
     "runtime-main.js.map": "/cryptoscholar/static/js/runtime-main.88060b96.js.map",
     "static/js/2.7bb30aa5.chunk.js": "/cryptoscholar/static/js/2.7bb30aa5.chunk.js",
     "static/js/2.7bb30aa5.chunk.js.map": "/cryptoscholar/static/js/2.7bb30aa5.chunk.js.map",
     "index.html": "/cryptoscholar/index.html",
-    "static/css/main.809d1f90.chunk.css.map": "/cryptoscholar/static/css/main.809d1f90.chunk.css.map",
+    "static/css/main.ac9f4805.chunk.css.map": "/cryptoscholar/static/css/main.ac9f4805.chunk.css.map",
     "static/js/2.7bb30aa5.chunk.js.LICENSE.txt": "/cryptoscholar/static/js/2.7bb30aa5.chunk.js.LICENSE.txt",
+    "static/media/King.8fe920d0.jpg": "/cryptoscholar/static/media/King.8fe920d0.jpg",
+    "static/media/Knight.76da708c.jpg": "/cryptoscholar/static/media/Knight.76da708c.jpg",
     "static/media/Logo.800f082f.png": "/cryptoscholar/static/media/Logo.800f082f.png",
+    "static/media/Queen.f7e26a01.jpg": "/cryptoscholar/static/media/Queen.f7e26a01.jpg",
     "static/media/b_bishop.46e2ceb2.png": "/cryptoscholar/static/media/b_bishop.46e2ceb2.png",
     "static/media/b_king.0f1c81df.png": "/cryptoscholar/static/media/b_king.0f1c81df.png",
     "static/media/b_knight.506afede.png": "/cryptoscholar/static/media/b_knight.506afede.png",
@@ -27,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.88060b96.js",
     "static/js/2.7bb30aa5.chunk.js",
-    "static/css/main.809d1f90.chunk.css",
-    "static/js/main.37f5ae67.chunk.js"
+    "static/css/main.ac9f4805.chunk.css",
+    "static/js/main.9937fc1a.chunk.js"
   ]
 }
