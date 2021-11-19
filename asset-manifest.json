@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/cryptoscholar/static/css/main.ac9f4805.chunk.css",
-    "main.js": "/cryptoscholar/static/js/main.9937fc1a.chunk.js",
-    "main.js.map": "/cryptoscholar/static/js/main.9937fc1a.chunk.js.map",
+    "main.css": "/cryptoscholar/static/css/main.51fe45ef.chunk.css",
+    "main.js": "/cryptoscholar/static/js/main.5056420f.chunk.js",
+    "main.js.map": "/cryptoscholar/static/js/main.5056420f.chunk.js.map",
     "runtime-main.js": "/cryptoscholar/static/js/runtime-main.88060b96.js",
     "runtime-main.js.map": "/cryptoscholar/static/js/runtime-main.88060b96.js.map",
     "static/js/2.7bb30aa5.chunk.js": "/cryptoscholar/static/js/2.7bb30aa5.chunk.js",
     "static/js/2.7bb30aa5.chunk.js.map": "/cryptoscholar/static/js/2.7bb30aa5.chunk.js.map",
     "index.html": "/cryptoscholar/index.html",
-    "static/css/main.ac9f4805.chunk.css.map": "/cryptoscholar/static/css/main.ac9f4805.chunk.css.map",
+    "static/css/main.51fe45ef.chunk.css.map": "/cryptoscholar/static/css/main.51fe45ef.chunk.css.map",
     "static/js/2.7bb30aa5.chunk.js.LICENSE.txt": "/cryptoscholar/static/js/2.7bb30aa5.chunk.js.LICENSE.txt",
+    "static/media/Green.eca19064.png": "/cryptoscholar/static/media/Green.eca19064.png",
     "static/media/King.8fe920d0.jpg": "/cryptoscholar/static/media/King.8fe920d0.jpg",
     "static/media/Knight.76da708c.jpg": "/cryptoscholar/static/media/Knight.76da708c.jpg",
     "static/media/Logo.800f082f.png": "/cryptoscholar/static/media/Logo.800f082f.png",
@@ -20,6 +21,8 @@
     "static/media/b_pawn.bbf20ce5.png": "/cryptoscholar/static/media/b_pawn.bbf20ce5.png",
     "static/media/b_queen.05d71e00.png": "/cryptoscholar/static/media/b_queen.05d71e00.png",
     "static/media/b_rook.62d9b25c.png": "/cryptoscholar/static/media/b_rook.62d9b25c.png",
+    "static/media/discord.741e707e.png": "/cryptoscholar/static/media/discord.741e707e.png",
+    "static/media/twitter.35c0bca4.png": "/cryptoscholar/static/media/twitter.35c0bca4.png",
     "static/media/w_bishop.3e56f0d1.png": "/cryptoscholar/static/media/w_bishop.3e56f0d1.png",
     "static/media/w_king.e2f5d12e.png": "/cryptoscholar/static/media/w_king.e2f5d12e.png",
     "static/media/w_knight.d46581f3.png": "/cryptoscholar/static/media/w_knight.d46581f3.png",
@@ -30,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.88060b96.js",
     "static/js/2.7bb30aa5.chunk.js",
-    "static/css/main.ac9f4805.chunk.css",
-    "static/js/main.9937fc1a.chunk.js"
+    "static/css/main.51fe45ef.chunk.css",
+    "static/js/main.5056420f.chunk.js"
   ]
 }
