@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cryptoscholar/static/css/main.51fe45ef.chunk.css",
-    "main.js": "/cryptoscholar/static/js/main.389a138e.chunk.js",
-    "main.js.map": "/cryptoscholar/static/js/main.389a138e.chunk.js.map",
+    "main.js": "/cryptoscholar/static/js/main.a937c8e8.chunk.js",
+    "main.js.map": "/cryptoscholar/static/js/main.a937c8e8.chunk.js.map",
     "runtime-main.js": "/cryptoscholar/static/js/runtime-main.88060b96.js",
     "runtime-main.js.map": "/cryptoscholar/static/js/runtime-main.88060b96.js.map",
     "static/js/2.7bb30aa5.chunk.js": "/cryptoscholar/static/js/2.7bb30aa5.chunk.js",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.88060b96.js",
     "static/js/2.7bb30aa5.chunk.js",
     "static/css/main.51fe45ef.chunk.css",
-    "static/js/main.389a138e.chunk.js"
+    "static/js/main.a937c8e8.chunk.js"
   ]
 }
