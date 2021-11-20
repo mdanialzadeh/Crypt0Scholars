@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cryptoscholar/static/css/main.dadeb155.chunk.css",
-    "main.js": "/cryptoscholar/static/js/main.3fbd73f4.chunk.js",
-    "main.js.map": "/cryptoscholar/static/js/main.3fbd73f4.chunk.js.map",
+    "main.js": "/cryptoscholar/static/js/main.d66cbc42.chunk.js",
+    "main.js.map": "/cryptoscholar/static/js/main.d66cbc42.chunk.js.map",
     "runtime-main.js": "/cryptoscholar/static/js/runtime-main.88060b96.js",
     "runtime-main.js.map": "/cryptoscholar/static/js/runtime-main.88060b96.js.map",
     "static/js/2.7bb30aa5.chunk.js": "/cryptoscholar/static/js/2.7bb30aa5.chunk.js",
@@ -11,10 +11,13 @@
     "static/css/main.dadeb155.chunk.css.map": "/cryptoscholar/static/css/main.dadeb155.chunk.css.map",
     "static/js/2.7bb30aa5.chunk.js.LICENSE.txt": "/cryptoscholar/static/js/2.7bb30aa5.chunk.js.LICENSE.txt",
     "static/media/Green.eca19064.png": "/cryptoscholar/static/media/Green.eca19064.png",
+    "static/media/Jade.4feb6899.jpg": "/cryptoscholar/static/media/Jade.4feb6899.jpg",
     "static/media/King.8fe920d0.jpg": "/cryptoscholar/static/media/King.8fe920d0.jpg",
     "static/media/Knight.76da708c.jpg": "/cryptoscholar/static/media/Knight.76da708c.jpg",
     "static/media/Logo.800f082f.png": "/cryptoscholar/static/media/Logo.800f082f.png",
     "static/media/Queen.f7e26a01.jpg": "/cryptoscholar/static/media/Queen.f7e26a01.jpg",
+    "static/media/Ruby.0afa503a.jpg": "/cryptoscholar/static/media/Ruby.0afa503a.jpg",
+    "static/media/Saphire.d388be66.jpg": "/cryptoscholar/static/media/Saphire.d388be66.jpg",
     "static/media/b_bishop.46e2ceb2.png": "/cryptoscholar/static/media/b_bishop.46e2ceb2.png",
     "static/media/b_king.0f1c81df.png": "/cryptoscholar/static/media/b_king.0f1c81df.png",
     "static/media/b_knight.506afede.png": "/cryptoscholar/static/media/b_knight.506afede.png",
@@ -34,6 +37,6 @@
     "static/js/runtime-main.88060b96.js",
     "static/js/2.7bb30aa5.chunk.js",
     "static/css/main.dadeb155.chunk.css",
-    "static/js/main.3fbd73f4.chunk.js"
+    "static/js/main.d66cbc42.chunk.js"
   ]
 }
