@@ -47,7 +47,7 @@ function Home() {
                         </p>
                         )}        
                     </div>
-                    <h3>As a bonus for pre-registering before the cut off date on 3/31/2022 will have early access to the portal in order to set up their profiles
+                    <h3>As a bonus for pre-registering before the cut off date on 3/31/2022 participants will recieve early access to the portal in order to set up their profiles.
                     </h3>
                     <home.Image src={green} alt=""/>
                 
@@ -62,7 +62,7 @@ const home = {
       display: flex;
       flex-direction: column;
       height:100vh;
-      margin: 5vw 10vw 0vw 10vw;
+      margin: 5vw 10vw 10vw 10vw;
       align-items:center;
       justify-content: center;
     
@@ -70,13 +70,15 @@ const home = {
 
     Container: styled.div`
         text-align:center;
-        height: 85%;
+        height: 95%;
+        min-height: 50em;
         width: 80%;
         display:flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        margin-bottom: 10vh;
+        padding-bottom: 5em;
+        padding-top: 5em;
         @media (min-width: 640px) {
             font-size: 1.8rem;
             width: 80%;
@@ -105,6 +107,7 @@ const home = {
 
     Welcome: styled.h1`
     text-transform: uppercase;
+    font-size: 2.4em;
     `,
   };
 

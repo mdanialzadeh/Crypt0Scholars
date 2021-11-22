@@ -100,7 +100,7 @@ const info = {
     display: flex;
     flex-direction: row;
     justify-content: center;
- 
+    min-height: 60em;
     height:100vh;
     margin: 6vw 5vw;   
     padding-top: 6rem;
@@ -114,6 +114,7 @@ const info = {
   Container: styled.div`
       text-align:center;
       height: 60vh;
+      min-height: 40em;
       margin: 0vw 5vw;
       width:100%;
       display:flex;
@@ -151,6 +152,7 @@ const info = {
     margin-top: 6vh;
     width: 94%;
     margin: 5% 2%;
+    min-height: max-content;
     display: flex;
     font-size: 1rem;
     flex-direction: column;

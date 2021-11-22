@@ -97,7 +97,8 @@ const nft = {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height:120vh;
+    height:140vh;
+    min-height: 80em;
     margin: 0 5vw;   
     padding-top: 6rem;
     @media (max-width: 640px) {
@@ -107,7 +108,8 @@ const nft = {
 
   Container: styled.div`
       text-align:center;
-      height: 60vh;
+      height: 70vh;
+      min-height: 40em;
       width:86%;
       align-items:center;
       display:flex;
@@ -119,13 +121,14 @@ const nft = {
   Title: styled.h1`
   font-size: 3rem;
   @media (max-width: 640px) {
-    font-size: 1.4rem;
+    font-size: 2.4em;
 }
   `,
 
   Section: styled.p`
   font-size: 2rem;
   font-weight: bold;
+  min-height: min-content;
   @media (max-width: 640px) {
       font-size: 1.2rem;
   }

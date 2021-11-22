@@ -26,6 +26,7 @@ const road = {
     justify-content: center;
     align-items: center;
     height:100vh;
+    min-height: 60em;
     margin: 0 5vw;   
     padding-top: 6rem;
     @media (max-width: 640px) {
@@ -35,6 +36,7 @@ const road = {
   Container: styled.div`
       text-align:center;
       height: 90%;
+      min-height: 40em;
       width:100%;
       align-items:center;
       display:flex;
@@ -43,8 +45,8 @@ const road = {
   `,
 
     Title: styled.h1`
-    margin-bottom: 2rem;
-    font-size: 2rem;
+    margin-bottom: 2em;
+    font-size: 2.6em;
     `,
 
     Info: styled.div`
