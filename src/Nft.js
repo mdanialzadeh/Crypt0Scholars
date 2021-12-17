@@ -14,10 +14,10 @@ function Nft() {
         <nft.Wrapper >
             <nft.Container>
                 <nft.Title>
-                    NFT Fundraiser & Utility
+                    NFT Fundraiser
                 </nft.Title>
                 <nft.Section>
-                To further help our project have maximum impact during the first tournament, we will have an NFT sale of two types of NFTs. The first NFT style is designed by established artist in the NFT space: <nft.Link href ="https://kriscfox3d.io/"target="_blank" rel="noreferrer"> Kris C Fox</nft.Link>. 
+                To further help our project have maximum impact during the first tournament, we will have an NFT sale of two types of NFTs. Our first NFT style is geared towards chess players who prefer traditional chess piece representations. There will be a very limited amount of NFTs of this iteration, sold via gum ball style vending machine.  
                 </nft.Section>
 
                 <div className="nft_examples">
@@ -46,44 +46,72 @@ function Nft() {
                     </figure>
                     </a>
                  </div>              
-            <nft.Section> NFT's will potentially hold a player's win loss history within the meta data of the NFT.</nft.Section>
           
             </nft.Container>
             <nft.Container>
-   
  <nft.Section>
- Our other NFT offering is based on AI generated art, using AI_Xerxe's crazy neural networks.
+ The second style will cater to chess players who want a more abstract representation of chess pieces. They are made using generative adversarial neural networks interpretations, of hundreds of chess piece examples. <br/><br/> These will be very LIMITED, can’t be purchased, and only earned through game achievements. When a player reaches the required milestones, an AI generated NFT be will be airdropped their wallet. 
+
  </nft.Section>
+   
 
                 <div className="nft_examples">
+                   
+
                     <figure className="hover-img">
-                <a href="https://twitter.com/ai_Xerxes?t=G_NQNroGj0tJ9fps_pCHDQ&s=09" target="_blank" rel="noreferrer">
+                
                         <img src={Knight} alt=""/>
                         <figcaption>
                             <h3>Knight</h3>
                         </figcaption>
-                    </a>
+                    
                     </figure>
+                  
+
                     <figure className="hover-img">
-                    <a href="https://twitter.com/ai_Xerxes?t=G_NQNroGj0tJ9fps_pCHDQ&s=09" target="_blank" rel="noreferrer">
-                        <img src={King} alt=""/>
-                        <figcaption>
-                            <h3>King</h3>
-                        </figcaption>
-                    </a>
-                    </figure>
-                    <figure className="hover-img">
-                    <a href="https://twitter.com/ai_Xerxes?t=G_NQNroGj0tJ9fps_pCHDQ&s=09" target="_blank" rel="noreferrer">
+                    
                         <img src={Queen} alt=""/>
                         <figcaption>
                             <h3>Queen</h3>
                         </figcaption>
-                        </a>
+                        
                     </figure>
+                   
+
+                    <figure className="hover-img">
+                   
+                        <img src={King} alt=""/>
+                        <figcaption>
+                            <h3>King</h3>
+                        </figcaption>
+                    
+                    </figure>
+                    
+
                  </div>              
-                 <nft.Section>
-                 He trains his neural nets to study countless images of chess pieces, and then let's the AI come up with it's own interpretation.
-                </nft.Section>
+
+<nft.Section>
+<p>
+
+NFT Utility - NFTs offer many advantages, Crpt0Scholars is focusing on the following 3 features:
+</p>
+
+<ul>
+<nft.Li>
+They can store meta data, in our case – your win / loss records & subsequent ranking.
+</nft.Li>
+<nft.Li>
+    
+They can act as authentication method for various uses (logging in, perks, air drops, payouts, anti-cheating, etc) simply by owning them in your wallet.
+
+</nft.Li>
+<nft.Li>
+    
+They are 100% yours. If your Crypt0Scholars NFT has a legendary track record, and someone wants to acquire it, you can sell it. Presently, digital assets are just licensed to users on web 2.0 - not owned by them.
+</nft.Li>
+
+    </ul>    
+</nft.Section>
           
             </nft.Container>
 
@@ -92,51 +120,49 @@ function Nft() {
 }
 
 const nft = {
+
+    
+    Li: styled.li`
+    margin: 1rem;
+    `,
     
     Wrapper: styled.main`
     display: flex;
     flex-direction: column;
     align-items: center;
-    height:140vh;
-    min-height: 80em;
-    margin: 0 5vw;   
-    padding-top: 6rem;
+    max-width: 1440px;
+    min-height: 600px;
+    hight: min-content;
+    
+    justify-content: space-around;
     @media (max-width: 640px) {
       padding-top: 0;
-      justify-content: space-between;
   `,
 
   Container: styled.div`
       text-align:center;
-      height: 70vh;
-      min-height: 40em;
-      width:86%;
+      width: 85%;
       align-items:center;
       display:flex;
       flex-direction: column;
-      justify-content: space-evenly;
+      justify-content: space-around;
    
   `,
 
-  Title: styled.h1`
-  font-size: 3rem;
-  @media (max-width: 640px) {
-    font-size: 2.4em;
-}
+  Title: styled.h2`
+  padding: 12% 0px .1rem 0px;
+  
   `,
 
   Section: styled.p`
-  font-size: 2rem;
-  font-weight: bold;
-  min-height: min-content;
+  padding: 40px 0px;
+  min-height: max-content;
+  font-size: clamp(15px, 2vw, 22px);
   @media (max-width: 640px) {
-      font-size: 1.2rem;
+    
   }
   `,
   
-  Disclaimer: styled.p`
-  font-size: 1rem;
-  `,
 
   Link: styled.a`
   color: blue;

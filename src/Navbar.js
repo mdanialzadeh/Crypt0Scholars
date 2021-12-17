@@ -43,7 +43,8 @@ function Nav() {
           </MobileNavbar.Wrapper>
         ) : (
           <Navbar.Wrapper>
-            <Navbar.Logo></Navbar.Logo>
+            <Navbar.Hold>
+            <Navbar.Logo src={logoimg}></Navbar.Logo>
             <Navbar.Items>
               <Navbar.Item>
               <Link activeClass="active" className="homenav" to="home" spy={true} smooth={true} duration={1000} >Home</Link>
@@ -56,6 +57,7 @@ function Nav() {
               <Navbar.Item>
               <Link activeClass="active" className="moreinfonav" to="moreinfo" spy={true} smooth={true} duration={1000} >More Info</Link></Navbar.Item>
             </Navbar.Items>
+            </Navbar.Hold>
           </Navbar.Wrapper>
         )}
       </Styles.Wrapper>
@@ -64,52 +66,63 @@ function Nav() {
   
   const Styles = {
     Wrapper: styled.main`
-      display: flex;
-      z-index: 10;
+      z-index: 10; 
+
     `
   };
-  
   const Navbar = {
     Wrapper: styled.nav`
-      flex: 1;
-      align-self: flex-start;
-      padding: 0 3rem;
-      height: 6rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #FDFDFB;
-      position:fixed;
+    overflow-x: hidden;
+      left: 0;
+      background-color: #f1f2f3;
+      position: fixed;
       width: 100%;
-      z-index: 2;
+      z-index: 12;
+      height: 70px;
       box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
     `,
-    Logo: styled.div`
-      padding: 0.5rem 1rem;
-      height: 50px;
-      width: 120px;
-      background-size: contain;
-      background-image: url(${logoimg});
+
+    Hold: styled.div`
+    max-width: 1440px;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
     `,
-    Items: styled.ul`
-      margin:0;
+
+    Logo: styled.img`
+      height: inherit;
+      width: 7rem;
+      height: 60%;
+      padding-left: 30px;
+      `,
+
+
+
+      Items: styled.ul`
+      width: 60%;
+      max-width: 700px;
       display: flex;
       list-style: none;
+      justify-content: space-around;
+      font-size: clamp(16px, 2vw, 20px);
     `,
     Item: styled.li`
-      padding: 0 1.2rem;
       cursor: pointer;
-      font-size: 1.5rem
+
+      &: hover {
+        color: #062d89;
+        transform: scale(1.08);
+        
+      }
     `
   };
   
   const MobileNavbar = {
     Wrapper: styled(Navbar.Wrapper)`
       position: fixed;
-      width: 100vw;
       bottom: 0;
-      height: 5rem;
-      padding: 0 1rem;
       justify-content: center;
       box-shadow: 0 -4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
     `,
@@ -122,11 +135,10 @@ function Nav() {
     `,
     Item: styled(Navbar.Item)`
       align-items: center;
-      font-size: 1.3rem;
+      
       white-space: nowrap;
       justify-content: center;
       display: flex;
-      padding: 0 .4rem;
     `,
   };
   

@@ -6,7 +6,7 @@ import twitter from "./images/twitter.png"
 function Contacts() {
     return (
         <Contact.Container>
-            <a href="https://discord.gg/4D5f4RanSN" target="_blank" rel="noreferrer">
+            <a href="https://discord.gg/W8ZZQ53a" target="_blank" rel="noreferrer">
                 <Contact.Image src={discord} alt="discord logo"/> 
             </a>
             <a href="https://twitter.com/Crypt0Scholars" target="_blank" rel="noreferrer">
@@ -20,29 +20,40 @@ const Contact = {
     
   Container: styled.div`
     position: fixed;
-    top: 10rem;
+    top: 6em;
     right: 0;
-    background: #7A95D1;
+    background: #transparent;
     z-index: 20;
-    width 6rem;
-    height: 12em;
+    width 3.0rem;
+    height: 7rem;
     display:flex;
     flex-direction: column;
+    backdrop-filter: blur(10px);
     justify-content: space-around;
-    padding: .8em .2em .8em .6em;
-    border-radius: 20px 0px 0px 20px;
+    padding: .2em .4em .1em .5em;
+    border-radius: 1em 0px 0px 1em;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+    border: .1em solid rgb(240 240 240 / 6%);
+    
     @media (max-width: 640px) {
-      top: 2rem;
-      right: 0;
-      width 4.5rem;
-      height: 10em;
-      border-radius: 20px 0px 0px 20px;
-      
+      top: 2em;
+      padding: .3em .2em .3em .2em;
+      right: 0em;
+      width 2.5em;
+      height: 5.6em;
+      flex-direction: column;
     }
     `,
 
   Image: styled.img`
-    width: 100%;
+  height: 100%;
+  width: 100%;
+  padding: .1em;
+  filter: drop-shadow(0 0 .2rem #9e9090 );
+    box-shadow: 0 4px 6px -10px rgb(0 0 0 / 10%), 0 2px 4px -10px rgb(0 0 0 / 6%);
+    &: hover {
+      transform: scale(1.1);
+    }
   `,
 }
 

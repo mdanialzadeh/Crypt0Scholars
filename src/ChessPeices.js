@@ -1,6 +1,6 @@
 import React from 'react'
 import "./ChessPeices.css"
-import chessboardimg from './images/Chess_Board.png'
+import chessboardimg from './images/chess_board.png'
 
 
 import blackpawn from "./images/peices/b_pawn.png"
@@ -23,6 +23,7 @@ function ChessPeices() {
         gridColumn: "1",
         gridRow: "2",
         width: "70%"
+        
     }
 
     const blackpawn2 = {

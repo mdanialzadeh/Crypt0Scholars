@@ -1,19 +1,30 @@
 
 
-.roadmapinfo > img {
-    max-height: 4vw;
-}
 
 .roadmapinfo {
     display: flex;
     justify-content: center;
-    font-size: 1.3rem;
     font-weight: bold;
     -webkit-animation: slidein_down 2s ease 0s 1 normal forwards;     
-            animation: slidein_down 2s ease 0s 1 normal forwards;
+            animation: slidein_down 2s ease 0s 1 normal forwards;   
+            
 }
 
 
+@media (min-width: 0px) {
+    .roadmapinfo{
+
+        font-size: calc(0.65rem + ((1vw - 0.4px) * 0.8068));
+        min-height: 0vw;
+    }
+   }
+ @media (min-width: 1920px) {
+   .roadmapinfo {
+       
+       font-size: 20px;
+   }
+   
+ }
 
 .jump_up {
     -webkit-animation: slide-up .3s ease-in-out both;
@@ -51,7 +62,7 @@
     }
 
     80% {
-        transform: translateY(-4.475rem)scale3d(.9, 1.2, 0) ;
+        transform: translateY(-2.2rem)scale3d(.9, 1.2, 0) ;
     }
 
     100% {
@@ -65,7 +76,7 @@
     }
 
     80% {
-        transform: translateY(-4.375rem)scale3d(.9, 1.2, 0) ;
+        transform: translateY(-2.2rem)scale3d(.9, 1.2, 0) ;
     }
 
     100% {
@@ -81,7 +92,7 @@
     }
 
     80% {
-        transform: translateY(4.4rem) scale3d(.9, 1.2, 0);
+        transform: translateY(calc((7.85rem + ((10vw - 0.4px) * 3.1068))/16)) scale3d(.9, 1.2, 0);
         
     }
 
@@ -98,7 +109,7 @@
     }
 
     80% {
-        transform: translateY(4.375rem) scale3d(.9, 1.2, 0);
+        transform: translateY(calc((7.85rem + ((10vw - 0.4px) * 3.1068))/16)) scale3d(.9, 1.2, 0);
         
     }
 
@@ -113,7 +124,7 @@
     }
 
     80% {
-        transform: translate(2.375rem, -2.375rem) scale3d(.9, 1.2, 0);
+        transform: translate(calc((7.85rem + ((10vw - 0.4px) * 3.1068))/32), calc(-(7.85rem + ((10vw - 0.4px) * 3.1068))/32)) scale3d(.9, 1.2, 0);
     }
 
     100% {
@@ -141,7 +152,7 @@
     }
 
     80% {
-        transform: translate(4.475rem, 4.475rem ) scale3d(.9, 1.2, 0);
+        transform: translate(1.475rem, 1.475rem ) scale3d(.9, 1.2, 0);
     }
 
     100% {
@@ -155,11 +166,11 @@
     }
 
     80% {
-        transform: translate(4.475rem,4.475rem ) scale3d(.9, 1.2, 0);
+        transform: translate(1.475rem,1.475rem ) scale3d(.9, 1.2, 0);
     }
 
     100% {
-        transform: translate(.375rem,.375rem);
+        transform: translate(0rem,0rem);
     }
 }
 
@@ -169,11 +180,11 @@
     }
 
     80% {
-        transform: translate(-4.475rem, 4.475rem ) scale3d(.9, 1.2, 0);
+        transform: translate(-1.475rem, 1.475rem ) scale3d(.9, 1.2, 0);
     }
 
     100% {
-        transform: translate(-.375rem, .375rem);
+        transform: translate(0rem, 0rem);
     }
 }
 
@@ -183,7 +194,7 @@
     }
 
     80% {
-        transform: translate(-4.875rem, 4.875rem ) scale3d(.9, 1.2, 0);
+        transform: translate(-1.875rem, 1.875rem ) scale3d(.9, 1.2, 0);
     }
 
     100% {

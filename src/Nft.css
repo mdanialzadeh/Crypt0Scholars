@@ -3,17 +3,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
 }
 
+@media (max-width: 640px) {
+  .nft_examples {
+    flex-direction: column;
+    width: 70%;
+  }
+}
 
 
 .hover-img {
     background-color: #000;
-    border: 1px solid white;
     margin: .2em;
     color: #fff;
     display: inline-block;
-
     max-width: calc(60vw + 8vh);
     max-height: calc(60vw + 8vh);
     overflow: hidden;

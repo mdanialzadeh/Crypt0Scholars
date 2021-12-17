@@ -26,7 +26,7 @@ function ChessBoard() {
         }
         
         async function turnOne() {
-            await sleep(500)
+            await sleep(900)
             pawn1w[0].classList.add ("jump_up")
             await sleep (240)
             pawn1w[0].attributes[3].nodeValue = "grid-area: 6 / 4 / auto / auto; max-width: 70%;"
@@ -55,7 +55,7 @@ function ChessBoard() {
             road_div.classList = "roadmapinfo"
 
             const roadinfo = document.createElement("p")
-            roadinfo.innerText = "Q1 2022 Pre-Registration Window open. "
+            roadinfo.innerText = "Q1 2022:  Beta Access To Whitelist"
 
             road_div.append(roadinfo)
             x.append(road_div)
@@ -106,7 +106,7 @@ function ChessBoard() {
             road_div.classList = "roadmapinfo"
 
             const roadinfo = document.createElement("p")
-            roadinfo.innerText = "Q2- 2022: NFT Sales"
+            roadinfo.innerText = "Q2 2022: NFT Sales"
     
             road_div.append(roadinfo)
             x.append(road_div)
@@ -138,7 +138,7 @@ function ChessBoard() {
             road_div.classList = "roadmapinfo"
 
             const roadinfo = document.createElement("p")
-            roadinfo.innerText = "Q3 2022: Game Development begins"
+            roadinfo.innerText = "Q3 2022: Game Development"
        
             road_div.append(roadinfo)
             x.append(road_div)
@@ -210,7 +210,7 @@ function ChessBoard() {
         road_div.classList = "roadmapinfo"
  
         const roadinfo = document.createElement("p")
-        roadinfo.innerText = "Q1 2023: First Competition and Scholarship for 2023"
+        roadinfo.innerText = "Q1 2023: Projected Launch"
       
         road_div.append(roadinfo)
         x.append(road_div)
