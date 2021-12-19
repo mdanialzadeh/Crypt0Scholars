@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.32a30ad0.chunk.css",
-    "main.js": "/static/js/main.53f5e804.chunk.js",
-    "main.js.map": "/static/js/main.53f5e804.chunk.js.map",
+    "main.css": "/static/css/main.4f190b44.chunk.css",
+    "main.js": "/static/js/main.858c1d36.chunk.js",
+    "main.js.map": "/static/js/main.858c1d36.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0db1f24e.js",
     "runtime-main.js.map": "/static/js/runtime-main.0db1f24e.js.map",
     "static/js/2.44e66c9e.chunk.js": "/static/js/2.44e66c9e.chunk.js",
     "static/js/2.44e66c9e.chunk.js.map": "/static/js/2.44e66c9e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.32a30ad0.chunk.css.map": "/static/css/main.32a30ad0.chunk.css.map",
+    "static/css/main.4f190b44.chunk.css.map": "/static/css/main.4f190b44.chunk.css.map",
     "static/js/2.44e66c9e.chunk.js.LICENSE.txt": "/static/js/2.44e66c9e.chunk.js.LICENSE.txt",
     "static/media/Jade.4feb6899.jpg": "/static/media/Jade.4feb6899.jpg",
     "static/media/King.8fe920d0.jpg": "/static/media/King.8fe920d0.jpg",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.0db1f24e.js",
     "static/js/2.44e66c9e.chunk.js",
-    "static/css/main.32a30ad0.chunk.css",
-    "static/js/main.53f5e804.chunk.js"
+    "static/css/main.4f190b44.chunk.css",
+    "static/js/main.858c1d36.chunk.js"
   ]
 }
