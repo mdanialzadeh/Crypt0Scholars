@@ -1,6 +1,5 @@
-
 import { createGlobalStyle } from "styled-components";
-
+import bg from "./images/666.jpg";
 
 const CSSReset = createGlobalStyle`
   *,
@@ -11,24 +10,25 @@ const CSSReset = createGlobalStyle`
     box-sizing: inherit;
   }
 
+:root {
+ 
+}
+
+.app {
+  padding-top: 60px;
+  min-height: calc(100vh - 72px);
+  background-image: url(${bg});
+  background-size: 100% 100%;
+  background-position: bottom ;
 
   
+}
+
+
 
   html {
-    box-sizing: border-box; 
-    font-family: 'Chivo', sans-serif;
-    display: flex;
-    overflow: scroll;
-    overflow-x: hidden;
-    background-color: #f1f2f39a;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='80%25' height='80%25'%3E%3Cdefs%3E%3Cpattern id='p' width='100' height='100' patternUnits='userSpaceOnUse' patternTransform='scale(1.32)'%3E%3Cpath id='a' data-color='fill' fill='%23FFFFFF' d='M50 50h50v50H50zM0 0h50v50H0z'%3E%3C/path%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23p)' width='100%25' height='100%25'%3E%3C/rect%3E%3C/svg%3E");
-background-attachment: fixed;
-background-blend-mode: hard-light;
-
-
-    justify-content: center;
-    min-width: min-content;
-    font-size: clamp(16px, 4vw, 22px);
+    font-family: 'Chivo', sans-serif ;
+    overflow-y: scroll;
   } 
   
   ::-webkit-scrollbar {
@@ -37,31 +37,80 @@ background-blend-mode: hard-light;
   
 
   ::-webkit-scrollbar-track {
-    background: #3f3f9054
+
   }
   
   
   ::-webkit-scrollbar-thumb {
-      background:  #7A95D1
+      background: linear-gradient(to bottom,#e3e3e3,#e3e3e3,#e3e3e3,#e2e2e2,#e3e3e3,#e3e3e3,#e2e2e2,#e3e3e3,#e2e2e2,#e3e3e3,#e2e2e2);
     }
     
     
     ::-webkit-scrollbar-thumb:hover {
-      background: #0033AD;
+      background: linear-gradient(to bottom,#b1acac,#b7b7b7,#8f8b8b,#979191,#afaaaa,#9d9797,#b5b2b2);
+    
   }
 
-  body { 
-    max-width: 1440px;
-    
-    
+  body {
+   
+    margin-top: 0em;
+    }
+.card {
+  background: #e2e2e2 !important;
+  border: 8px solid white !important;
+  border-radius: 0 !important;
+  margin: 1em !important;
+  box-shadow: 0px 0px 0px 6px black;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  justify-content: center !important;
+}
+
+.card-body {
+  flex: 0 !important;
+}
+
+
+
+  .row {
+      --bs-gutter-x: 0 !important;
     }
 
-a {
+
+
+#nava {
   text-decoration: none;
-  color: inherit;
   font-family: inherit;
+  
+}
+
+a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.bjbehh.bjbehh.bjbehh {
+  color: black;
+}
+
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.bannerimg {
+ min-height: 300px;
+ max-height: 900px;
+ width: 100%;
+ margin: 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
 }
 
 `;
 
-export default CSSReset
+export default CSSReset;

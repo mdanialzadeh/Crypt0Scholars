@@ -7,25 +7,26 @@
     
 }
 
-@media (max-width: 640px) {
+@media (max-width: 964px) {
   .nft_examples {
     flex-direction: column;
-    width: 70%;
+    
   }
 }
 
 
 .hover-img {
     background-color: #000;
-    margin: .2em;
+    margin: 1rem .8rem;
     color: #fff;
     display: inline-block;
-    max-width: calc(60vw + 8vh);
-    max-height: calc(60vw + 8vh);
+    max-width: calc(40vw + 8vh);
+    max-height: calc(40vw + 8vh);
     overflow: hidden;
     position: relative;
     text-align: center;
-
+    border-radius: .1rem .1rem;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 2px 4px, rgba(255, 255, 255, 0.3) 0px 7px 13px -30px, rgba(255, 255, 255, 0.2) 0px -3px 4px ;
   }
   
   .hover-img * {
