@@ -7,42 +7,6 @@ import Button from "react-bootstrap/Button";
 import { ButtonGroup } from "react-bootstrap";
 
 function Purchase() {
-  function openPaymentWindow() {
-    const paymentUrl =
-      "https://payment.nft-maker.io/?p=0653d20992904c5b8e8ebc0bead03b3e&c=1";
-
-    // Specify the popup width and height
-    const popupWidth = 500;
-    const popupHeight = 700;
-
-    // Calculate the center of the screen
-    const left =
-      window.top.outerWidth / 2 + window.top.screenX - popupWidth / 2;
-    const top =
-      window.top.outerHeight / 2 + window.top.screenY - popupHeight / 2;
-
-    const popup = window.open(
-      paymentUrl,
-      "NFT-MAKER PRO Payment Gateway",
-      `popup=1, location=1, width=${popupWidth}, height=${popupHeight}, left=${left}, top=${top}`
-    );
-
-    // Show dim background
-    document.body.style = "background: rgba(0, 0, 0, 0.5)";
-
-    // Continuously check whether the popup has been closed
-    const backgroundCheck = setInterval(function () {
-      if (popup.closed) {
-        clearInterval(backgroundCheck);
-
-        console.log("Popup closed");
-
-        // Remove dim background
-        document.body.style = "";
-      }
-    }, 1000);
-  }
-
   return (
     <Container
       style={{
@@ -55,11 +19,31 @@ function Purchase() {
       <Row xl={3} xs={1} style={{}}>
         <Col style={{ margin: "1em 0 " }}>
           <Card style={{ height: "100%", margin: "auto" }}>
+            <div
+              style={{
+                position: "absolute",
+                zIndex: "100",
+                left: "0",
+                right: "0",
+                bottom: "0",
+                top: "0",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                background: "rgba( 14, 10, 10, 0.45 )",
+                boxShadow: "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )",
+                backdropFilter: "blur( 4px )",
+                fontSize: "3em",
+                color: "rgba( 113, 5, 5 )",
+              }}
+            >
+              {" "}
+              Sold Out
+            </div>
             <Card.Body style={{ margin: "auto", textAlign: "center" }}>
               <img
                 style={{ width: "95%" }}
                 src="https://pro.nft-maker.io/images/buttons/paybutton_1_2.svg"
-                onClick={openPaymentWindow}
               />
             </Card.Body>
             <Card.Body>
