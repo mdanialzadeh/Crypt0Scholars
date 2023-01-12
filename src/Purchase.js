@@ -82,8 +82,8 @@ function Purchase() {
             <Card.Body style={{ margin: "auto" }}>
               <h4>Ai Scholars’ heart is the community.</h4>
               <p>
-                The early adopters, the blockchain enthusiasts, and of course,
-                chess players.
+                The early adopters, blockchain enthusiasts, and of course, chess
+                players.
               </p>
               <p>
                 We look forward to welcoming everyone from all over the world to
@@ -97,7 +97,7 @@ function Purchase() {
           <Card style={{ height: "100%", margin: "auto" }}>
             <Card.Body style={{ textAlign: "center", height: "100%" }}>
               <div>
-                <h4>NFT Perks</h4>
+                <h4>NFT Fun</h4>
                 <p>Priority access to new collections</p>
                 <p>Merchandise freebies & discounts</p>
                 <p>Potential random airdrops</p>
@@ -110,7 +110,7 @@ function Purchase() {
                   >
                     Join our Discord
                   </a>{" "}
-                  to compete in chess tournaments held monthly
+                  to compete in chess tournaments held randomly
                   <br /> for prizes such as NFTs and, soon ADA.
                 </p>
               </div>
